@@ -1,0 +1,29 @@
+{
+  "registry": {
+    "base_url": "https://registry.modelcontextprotocol.io/v0/servers",
+    "page_limit": 50
+  },
+  "readme_sources": [
+    { "id": "anthropics-skills",        "type": "skill", "tier": 1, "raw": "https://raw.githubusercontent.com/anthropics/skills/main/README.md" },
+    { "id": "voltagent-agent-skills",   "type": "skill", "tier": 2, "raw": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md" },
+    { "id": "karanb192-claude-skills",  "type": "skill", "tier": 2, "raw": "https://raw.githubusercontent.com/karanb192/awesome-claude-skills/main/README.md" },
+    { "id": "composio-claude-skills",   "type": "skill", "tier": 2, "raw": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/README.md" },
+    { "id": "travisvn-claude-skills",    "type": "skill", "tier": 2, "raw": "https://raw.githubusercontent.com/travisvn/awesome-claude-skills/main/README.md" },
+    { "id": "best-of-mcp-servers",      "type": "mcp",   "tier": 2, "raw": "https://raw.githubusercontent.com/tolkonepiu/best-of-mcp-servers/main/README.md" },
+    { "id": "appcypher-mcp-servers",    "type": "mcp",   "tier": 2, "raw": "https://raw.githubusercontent.com/appcypher/awesome-mcp-servers/main/README.md" },
+    { "id": "punkpeye-mcp-servers",     "type": "mcp",   "tier": 2, "raw": "https://raw.githubusercontent.com/punkpeye/awesome-mcp-servers/main/README.md" },
+    { "id": "punkpeye-mcp-devtools",    "type": "cli",   "tier": 2, "raw": "https://raw.githubusercontent.com/punkpeye/awesome-mcp-devtools/main/README.md" },
+    { "id": "rohitg00-devops-mcp",      "type": "mcp",   "tier": 2, "raw": "https://raw.githubusercontent.com/rohitg00/awesome-devops-mcp-servers/main/README.md" }
+  ],
+  "domain_keywords": {
+    "legal_courtos": ["legal", "court", "case", "litigation", "pacer", "docket", "deposition", "evidence", "timeline", "ocr", "encrypt", "subpoena", "filing"],
+    "trades_consulting": ["crm", "automation", "seo", "geo ", "invoice", "quickbooks", "scheduling", "lead", "proposal", "contractor", "form", "marketing"],
+    "real_estate": ["real estate", "property", "county record", "deed", "title", "zoning", "parcel", "mortgage", "zillow", "valuation", "assessor"],
+    "performance_health": ["fitness", "workout", "training", "recovery", "sleep", "wellbeing", "nutrition", "health"],
+    "personal_ops": ["calendar", "email", "gmail", "drive", "notion", "task", "todo", "research", "browser", "note", "document", "slack"]
+  },
+  "known_inventory": {
+    "skills": ["docx", "pdf", "pptx", "xlsx", "frontend-design", "vince-performance-advisor", "trades-consulting-deliverables", "ecosystem-scout"],
+    "connectors": ["google calendar", "gmail", "google drive", "cocounsel", "courtlistener", "courtroom5", "airtable", "canva", "figma", "tango", "govtribe"]
+  }
+}

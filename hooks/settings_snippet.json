@@ -1,0 +1,16 @@
+{
+  "_comment": "Merge the SessionStart block into C:\\Users\\vjlew\\.claude\\settings.json. Adjust the path if this repo moves. SessionStart hook stdout is injected as context, so the nudge appears when you open a session. Verify the current hooks schema at https://docs.claude.com before relying on it — the format evolves.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"g:\\My Drive\\Agentic Workflows\\AI Engineering\\ecosystem-scout\\hooks\\session_start_nudge.py\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
