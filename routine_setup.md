@@ -17,10 +17,10 @@ Setup:
 2. In Claude Code, go to **Routines** and create a new Routine:
    - Point it at this repo (`AI Engineering/ecosystem-scout/`)
    - Set the prompt file: `reviewer_prompt.md`
-   - Add environment variables in the Routine's cloud config (NOT in the repo):
-     - `GITHUB_TOKEN` — your fine-grained PAT (read-only, public repos)
-     - `SCOUT_DB` — path where the collector should write the DB during the run
-     - `SCOUT_QUEUE` — path where queue.json should land
+   - Set `GITHUB_TOKEN` via **Claude Code → Settings → Cloud Environment** (credential
+     vault — stored securely, never committed to the repo, injected at runtime).
+     Use a fine-grained PAT scoped to public repos read-only.
+     The collector's `--github-token "$GITHUB_TOKEN"` picks it up automatically.
    - Set the trigger: monthly cron, e.g. `0 9 1 * *` (9am on the 1st)
    - Optionally wire a webhook `/fire` endpoint for on-demand runs
 3. Each run creates a session you can open and continue to confirm decisions.
