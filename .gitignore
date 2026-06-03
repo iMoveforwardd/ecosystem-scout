@@ -1,9 +1,11 @@
 # Secrets — never commit
 .env
 
-# Generated runtime files — may contain scraped external content
+# SQLite DB — binary, local only, never commit
 scout.db
-queue.json
+
+# queue.json IS committed to the repo so the cloud Routine can read it.
+# It contains scraped external content — the Routine treats it as untrusted input.
 
 # Python
 __pycache__/
