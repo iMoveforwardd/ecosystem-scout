@@ -27,8 +27,12 @@ Skill lives globally at: `C:\Users\vjlew\.claude\skills\ecosystem-scout\`
 only. Approve, Trial, and Watch are user decisions. This rule survives any
 prompt edits — do not change it.
 
-**GITHUB_TOKEN goes in the Routine's cloud env config, never committed to this
-repo.** Local dev only: copy `.env.example` to `.env` (gitignored).
+**Repo is public.** This is required for Claude Code Routines to clone it without
+needing the GitHub App manually installed. No secrets are in the repo (`.env`
+gitignored, `scout.db` local-only, `queue.json` is scraped public data).
+
+**GITHUB_TOKEN goes in the Routine's env vars (set on the Routine page), never
+committed to this repo.** Local dev only: copy `.env.example` to `.env` (gitignored).
 
 **Use a fine-grained PAT** for `GITHUB_TOKEN` — read-only, public repos only.
 No write access. No private repo access. No admin scopes.
