@@ -1,6 +1,555 @@
 {
-  "generated_at": null,
-  "count": 0,
-  "candidates": [],
-  "_note": "Run collector.py locally and commit this file before triggering the Routine review."
+  "generated_at": "2026-06-04T02:35:31Z",
+  "count": 35,
+  "candidates": [
+    {
+      "key": "ai.31st/mcp",
+      "name": "ai.31st/mcp",
+      "type": "mcp",
+      "source": "official-registry",
+      "tier": 1,
+      "url": "ai.31st/mcp",
+      "description": "AI bookkeeper for QuickBooks \u2014 bank feeds, transactions, reports, month-end close.",
+      "domains": [
+        "trades_consulting"
+      ],
+      "signals": {
+        "namespace_verified": true,
+        "repo": "",
+        "registry_status": "deleted"
+      },
+      "first_seen": "2026-06-04T02:35:25Z"
+    },
+    {
+      "key": "ai.abmeter/abmeter",
+      "name": "ai.abmeter/abmeter",
+      "type": "mcp",
+      "source": "official-registry",
+      "tier": 1,
+      "url": "https://github.com/abmeter/abmeter",
+      "description": "Feature flagging and A/B testing platform with AI-first experimentation workflows.",
+      "domains": [
+        "trades_consulting"
+      ],
+      "signals": {
+        "namespace_verified": true,
+        "repo": "https://github.com/abmeter/abmeter",
+        "registry_status": "active"
+      },
+      "first_seen": "2026-06-04T02:35:25Z"
+    },
+    {
+      "key": "ai.agentdm/agentdm",
+      "name": "ai.agentdm/agentdm",
+      "type": "mcp",
+      "source": "official-registry",
+      "tier": 1,
+      "url": "ai.agentdm/agentdm",
+      "description": "Agent-to-agent messaging platform using MCP for cross-model communication.",
+      "domains": [
+        "trades_consulting"
+      ],
+      "signals": {
+        "namespace_verified": true,
+        "repo": "https://github.com/agentdmai/agentdm",
+        "registry_status": "active"
+      },
+      "first_seen": "2026-06-04T02:35:25Z"
+    },
+    {
+      "key": "ai.ankimcp/anki-mcp-server",
+      "name": "ai.ankimcp/anki-mcp-server",
+      "type": "mcp",
+      "source": "official-registry",
+      "tier": 1,
+      "url": "https://github.com/ankimcp/anki-mcp-server",
+      "description": "MCP server for Anki flashcards: adaptive review, notes, media, and deck management via AnkiConnect.",
+      "domains": [
+        "personal_ops"
+      ],
+      "signals": {
+        "namespace_verified": true,
+        "repo": "https://github.com/ankimcp/anki-mcp-server",
+        "registry_status": "active"
+      },
+      "first_seen": "2026-06-04T02:35:25Z"
+    },
+    {
+      "key": "ai.bankee/inferventis-mcp",
+      "name": "ai.bankee/inferventis-mcp",
+      "type": "mcp",
+      "source": "official-registry",
+      "tier": 1,
+      "url": "https://github.com/Bankee-ai/inferventis",
+      "description": "Loan & mortgage calculator, compound interest, ROI, crypto prices, FX conversion for AI agents.",
+      "domains": [
+        "real_estate"
+      ],
+      "signals": {
+        "namespace_verified": true,
+        "repo": "https://github.com/Bankee-ai/inferventis",
+        "registry_status": "active"
+      },
+      "first_seen": "2026-06-04T02:35:25Z"
+    },
+    {
+      "key": "ai.bittlebits/bittlebits",
+      "name": "ai.bittlebits/bittlebits",
+      "type": "mcp",
+      "source": "official-registry",
+      "tier": 1,
+      "url": "https://github.com/bittlebitsai/bittlebits-plugin",
+      "description": "GEO scores and content-rewrite suggestions for any web page, as MCP tools.",
+      "domains": [
+        "trades_consulting"
+      ],
+      "signals": {
+        "namespace_verified": true,
+        "repo": "https://github.com/bittlebitsai/bittlebits-plugin",
+        "registry_status": "active"
+      },
+      "first_seen": "2026-06-04T02:35:25Z"
+    },
+    {
+      "key": "http://agentskills.io",
+      "name": "agentskills.io",
+      "type": "skill",
+      "source": "anthropics-skills",
+      "tier": 1,
+      "url": "http://agentskills.io",
+      "description": "> **Note:** This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see [agentskills.io](http://agentskills.io).",
+      "domains": [
+        "trades_consulting",
+        "personal_ops"
+      ],
+      "signals": {},
+      "first_seen": "2026-06-04T02:35:26Z"
+    },
+    {
+      "key": "https://www.notion.so/notiondevs/notion-skills-for-claude-28da4445d27180c7af1df7d8615723d0",
+      "name": "Notion Skills for Claude",
+      "type": "skill",
+      "source": "anthropics-skills",
+      "tier": 1,
+      "url": "https://www.notion.so/notiondevs/Notion-Skills-for-Claude-28da4445d27180c7af1df7d8615723d0",
+      "description": "[Notion Skills for Claude](https://www.notion.so/notiondevs/Notion-Skills-for-Claude-28da4445d27180c7af1df7d8615723d0)",
+      "domains": [
+        "personal_ops"
+      ],
+      "signals": {},
+      "first_seen": "2026-06-04T02:35:26Z"
+    },
+    {
+      "key": "ac.inference.sh/inference",
+      "name": "ac.inference.sh/inference",
+      "type": "mcp",
+      "source": "official-registry",
+      "tier": 1,
+      "url": "ac.inference.sh/inference",
+      "description": "Run 150+ AI apps \u2014 image, video, audio, LLMs, 3D and more. Browse, execute, stream results.",
+      "domains": [],
+      "signals": {
+        "namespace_verified": true,
+        "repo": "",
+        "registry_status": "deleted"
+      },
+      "first_seen": "2026-06-04T02:35:25Z"
+    },
+    {
+      "key": "ac.inference.sh/mcp",
+      "name": "ac.inference.sh/mcp",
+      "type": "mcp",
+      "source": "official-registry",
+      "tier": 1,
+      "url": "ac.inference.sh/mcp",
+      "description": "Run 150+ AI apps \u2014 image, video, audio, LLMs, 3D and more. Browse, execute, stream results.",
+      "domains": [],
+      "signals": {
+        "namespace_verified": true,
+        "repo": "",
+        "registry_status": "active"
+      },
+      "first_seen": "2026-06-04T02:35:25Z"
+    },
+    {
+      "key": "ac.tandem/docs-mcp",
+      "name": "ac.tandem/docs-mcp",
+      "type": "mcp",
+      "source": "official-registry",
+      "tier": 1,
+      "url": "https://github.com/frumu-ai/tandem",
+      "description": "Remote MCP server for Tandem docs, install guides, SDKs, workflows, and agent setup help.",
+      "domains": [],
+      "signals": {
+        "namespace_verified": true,
+        "repo": "https://github.com/frumu-ai/tandem",
+        "registry_status": "active"
+      },
+      "first_seen": "2026-06-04T02:35:25Z"
+    },
+    {
+      "key": "ai.aarna/atars-mcp",
+      "name": "ai.aarna/atars-mcp",
+      "type": "mcp",
+      "source": "official-registry",
+      "tier": 1,
+      "url": "ai.aarna/atars-mcp",
+      "description": "Crypto market signals, technical indicators, and sentiment analysis for AI agents.",
+      "domains": [],
+      "signals": {
+        "namespace_verified": true,
+        "repo": "",
+        "registry_status": "active"
+      },
+      "first_seen": "2026-06-04T02:35:25Z"
+    },
+    {
+      "key": "ai.adramp/google-ads",
+      "name": "ai.adramp/google-ads",
+      "type": "mcp",
+      "source": "official-registry",
+      "tier": 1,
+      "url": "https://github.com/stylemi-co/adramp",
+      "description": "Google Ads MCP server \u2014 manage campaigns, keywords, and metrics.",
+      "domains": [],
+      "signals": {
+        "namespace_verified": true,
+        "repo": "",
+        "registry_status": "active"
+      },
+      "first_seen": "2026-06-04T02:35:25Z"
+    },
+    {
+      "key": "ai.adweave/meta-ads-mcp",
+      "name": "ai.adweave/meta-ads-mcp",
+      "type": "mcp",
+      "source": "official-registry",
+      "tier": 1,
+      "url": "ai.adweave/meta-ads-mcp",
+      "description": "Meta Ads MCP server with 47 tools for campaigns, creatives, audiences, and insights.",
+      "domains": [],
+      "signals": {
+        "namespace_verified": true,
+        "repo": "",
+        "registry_status": "active"
+      },
+      "first_seen": "2026-06-04T02:35:25Z"
+    },
+    {
+      "key": "ai.agentic-news/mcp",
+      "name": "ai.agentic-news/mcp",
+      "type": "mcp",
+      "source": "official-registry",
+      "tier": 1,
+      "url": "https://github.com/u00dxk2/agentic-news",
+      "description": "AI-powered news intelligence \u2014 21 tools for personalized monitoring, briefings, and semantic search",
+      "domains": [],
+      "signals": {
+        "namespace_verified": true,
+        "repo": "https://github.com/u00dxk2/agentic-news",
+        "registry_status": "active"
+      },
+      "first_seen": "2026-06-04T02:35:25Z"
+    },
+    {
+      "key": "ai.agenticshelf/graffeo",
+      "name": "ai.agenticshelf/graffeo",
+      "type": "mcp",
+      "source": "official-registry",
+      "tier": 1,
+      "url": "ai.agenticshelf/graffeo",
+      "description": "Live MCP catalog for Graffeo Coffee Roasting \u2014 North Beach SF specialty coffee since 1935.",
+      "domains": [],
+      "signals": {
+        "namespace_verified": true,
+        "repo": "",
+        "registry_status": "active"
+      },
+      "first_seen": "2026-06-04T02:35:25Z"
+    },
+    {
+      "key": "ai.agenticshelf/mcp",
+      "name": "ai.agenticshelf/mcp",
+      "type": "mcp",
+      "source": "official-registry",
+      "tier": 1,
+      "url": "https://github.com/vboykoCTO/agentic-shelf",
+      "description": "Hosted MCP for e-commerce: live product catalog, stock, and pricing for AI agents.",
+      "domains": [],
+      "signals": {
+        "namespace_verified": true,
+        "repo": "https://github.com/vboykoCTO/agentic-shelf",
+        "registry_status": "active"
+      },
+      "first_seen": "2026-06-04T02:35:25Z"
+    },
+    {
+      "key": "ai.agenticterminal/directory",
+      "name": "ai.agenticterminal/directory",
+      "type": "mcp",
+      "source": "official-registry",
+      "tier": 1,
+      "url": "https://github.com/observer-protocol/at-directory",
+      "description": "Verified merchants accepting agentic payments on Lightning/L402/BOLT12/USDT \u2014 search, verify, pay.",
+      "domains": [],
+      "signals": {
+        "namespace_verified": true,
+        "repo": "https://github.com/observer-protocol/at-directory",
+        "registry_status": "active"
+      },
+      "first_seen": "2026-06-04T02:35:25Z"
+    },
+    {
+      "key": "ai.agentrapay/agentra",
+      "name": "ai.agentrapay/agentra",
+      "type": "mcp",
+      "source": "official-registry",
+      "tier": 1,
+      "url": "ai.agentrapay/agentra",
+      "description": "Identity oracle and trust layer for autonomous AI agents. Bidirectional KYA and trust scoring.",
+      "domains": [],
+      "signals": {
+        "namespace_verified": true,
+        "repo": "",
+        "registry_status": "active"
+      },
+      "first_seen": "2026-06-04T02:35:25Z"
+    },
+    {
+      "key": "ai.agenttrust/mcp-server",
+      "name": "ai.agenttrust/mcp-server",
+      "type": "mcp",
+      "source": "official-registry",
+      "tier": 1,
+      "url": "https://github.com/agenttrust/mcp-server",
+      "description": "Identity, trust, and A2A orchestration for autonomous AI agents. Official A2A partner.",
+      "domains": [],
+      "signals": {
+        "namespace_verified": true,
+        "repo": "https://github.com/agenttrust/mcp-server",
+        "registry_status": "active"
+      },
+      "first_seen": "2026-06-04T02:35:25Z"
+    },
+    {
+      "key": "ai.ankimcp/anki-mcp-server-addon",
+      "name": "ai.ankimcp/anki-mcp-server-addon",
+      "type": "mcp",
+      "source": "official-registry",
+      "tier": 1,
+      "url": "https://github.com/ankimcp/anki-mcp-server-addon",
+      "description": "Anki addon that exposes your flashcard collection to AI assistants via a local MCP server.",
+      "domains": [],
+      "signals": {
+        "namespace_verified": true,
+        "repo": "https://github.com/ankimcp/anki-mcp-server-addon",
+        "registry_status": "active"
+      },
+      "first_seen": "2026-06-04T02:35:25Z"
+    },
+    {
+      "key": "ai.anomalyarmor/armor-mcp",
+      "name": "ai.anomalyarmor/armor-mcp",
+      "type": "mcp",
+      "source": "official-registry",
+      "tier": 1,
+      "url": "https://github.com/anomalyarmor/agents",
+      "description": "Data observability tools for engineering teams: alerts, freshness, schema drift, lineage, quality.",
+      "domains": [],
+      "signals": {
+        "namespace_verified": true,
+        "repo": "https://github.com/anomalyarmor/agents",
+        "registry_status": "active"
+      },
+      "first_seen": "2026-06-04T02:35:25Z"
+    },
+    {
+      "key": "ai.arclan/registry",
+      "name": "ai.arclan/registry",
+      "type": "mcp",
+      "source": "official-registry",
+      "tier": 1,
+      "url": "ai.arclan/registry",
+      "description": "MCP server registry \u2014 validated by live handshake, scored on reliability, monitored continuously.",
+      "domains": [],
+      "signals": {
+        "namespace_verified": true,
+        "repo": "",
+        "registry_status": "active"
+      },
+      "first_seen": "2026-06-04T02:35:25Z"
+    },
+    {
+      "key": "ai.artidrop/artidrop",
+      "name": "ai.artidrop/artidrop",
+      "type": "mcp",
+      "source": "official-registry",
+      "tier": 1,
+      "url": "ai.artidrop/artidrop",
+      "description": "The publishing layer for AI agents. Turn HTML and Markdown into shareable URLs instantly via MCP.",
+      "domains": [],
+      "signals": {
+        "namespace_verified": true,
+        "repo": "",
+        "registry_status": "active"
+      },
+      "first_seen": "2026-06-04T02:35:25Z"
+    },
+    {
+      "key": "ai.autonomad/computeback",
+      "name": "ai.autonomad/computeback",
+      "type": "mcp",
+      "source": "official-registry",
+      "tier": 1,
+      "url": "https://github.com/Autonomad1/computeback-mcp",
+      "description": "Agent marketplace: earn $NOMD on B2B work, spend on compute/voice/memory capabilities.",
+      "domains": [],
+      "signals": {
+        "namespace_verified": true,
+        "repo": "https://github.com/Autonomad1/computeback-mcp",
+        "registry_status": "active"
+      },
+      "first_seen": "2026-06-04T02:35:25Z"
+    },
+    {
+      "key": "ai.autonomad/travel",
+      "name": "ai.autonomad/travel",
+      "type": "mcp",
+      "source": "official-registry",
+      "tier": 1,
+      "url": "https://github.com/Autonomad1/autonomad1",
+      "description": "AI travel agent \u2014 book flights, hotels, activities, and events worldwide via autonomad.ai.",
+      "domains": [],
+      "signals": {
+        "namespace_verified": true,
+        "repo": "https://github.com/Autonomad1/autonomad1",
+        "registry_status": "active"
+      },
+      "first_seen": "2026-06-04T02:35:25Z"
+    },
+    {
+      "key": "ai.autorfp/mcp",
+      "name": "ai.autorfp/mcp",
+      "type": "mcp",
+      "source": "official-registry",
+      "tier": 1,
+      "url": "https://github.com/AutoRFP/mcp",
+      "description": "Search AutoRFP.ai projects, requirements, content library, and tags for Q&A and analytics.",
+      "domains": [],
+      "signals": {
+        "namespace_verified": true,
+        "repo": "https://github.com/AutoRFP/mcp",
+        "registry_status": "active"
+      },
+      "first_seen": "2026-06-04T02:35:25Z"
+    },
+    {
+      "key": "ai.auxen/auxen",
+      "name": "ai.auxen/auxen",
+      "type": "mcp",
+      "source": "official-registry",
+      "tier": 1,
+      "url": "https://github.com/Samp2Alex/auxen-mcp",
+      "description": "Provision private AI model endpoints on dedicated GPUs (Llama, Qwen, Mistral). Pay per minute.",
+      "domains": [],
+      "signals": {
+        "namespace_verified": true,
+        "repo": "https://github.com/auxen-ai/auxen-mcp",
+        "registry_status": "active"
+      },
+      "first_seen": "2026-06-04T02:35:25Z"
+    },
+    {
+      "key": "ai.baselight/baselight",
+      "name": "ai.baselight/baselight",
+      "type": "mcp",
+      "source": "official-registry",
+      "tier": 1,
+      "url": "ai.baselight/baselight",
+      "description": "Query Baselight's public catalog of 70,000+ datasets \u2014 finance, demographics, sports, and more.",
+      "domains": [],
+      "signals": {
+        "namespace_verified": true,
+        "repo": "",
+        "registry_status": "active"
+      },
+      "first_seen": "2026-06-04T02:35:25Z"
+    },
+    {
+      "key": "ai.bluenexus/universal-mcp",
+      "name": "ai.bluenexus/universal-mcp",
+      "type": "mcp",
+      "source": "official-registry",
+      "tier": 1,
+      "url": "ai.bluenexus/universal-mcp",
+      "description": "Connect your AI to all your data - 200+ sources, intelligently filtered, compliance-ready.",
+      "domains": [],
+      "signals": {
+        "namespace_verified": true,
+        "repo": "",
+        "registry_status": "active"
+      },
+      "first_seen": "2026-06-04T02:35:25Z"
+    },
+    {
+      "key": "https://skills.sh/b/anthropics/skills",
+      "name": "![skills.sh",
+      "type": "skill",
+      "source": "anthropics-skills",
+      "tier": 1,
+      "url": "https://skills.sh/b/anthropics/skills",
+      "description": "[![skills.sh](https://skills.sh/b/anthropics/skills)](https://skills.sh/anthropics/skills)",
+      "domains": [],
+      "signals": {},
+      "first_seen": "2026-06-04T02:35:26Z"
+    },
+    {
+      "key": "https://support.claude.com/en/articles/12512176-what-are-skills",
+      "name": "What are skills?",
+      "type": "skill",
+      "source": "anthropics-skills",
+      "tier": 1,
+      "url": "https://support.claude.com/en/articles/12512176-what-are-skills",
+      "description": "- [What are skills?](https://support.claude.com/en/articles/12512176-what-are-skills)",
+      "domains": [],
+      "signals": {},
+      "first_seen": "2026-06-04T02:35:26Z"
+    },
+    {
+      "key": "https://support.claude.com/en/articles/12512180-using-skills-in-claude",
+      "name": "Using skills in Claude",
+      "type": "skill",
+      "source": "anthropics-skills",
+      "tier": 1,
+      "url": "https://support.claude.com/en/articles/12512180-using-skills-in-claude",
+      "description": "- [Using skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude)",
+      "domains": [],
+      "signals": {},
+      "first_seen": "2026-06-04T02:35:26Z"
+    },
+    {
+      "key": "https://support.claude.com/en/articles/12512198-creating-custom-skills",
+      "name": "How to create custom skills",
+      "type": "skill",
+      "source": "anthropics-skills",
+      "tier": 1,
+      "url": "https://support.claude.com/en/articles/12512198-creating-custom-skills",
+      "description": "- [How to create custom skills](https://support.claude.com/en/articles/12512198-creating-custom-skills)",
+      "domains": [],
+      "signals": {},
+      "first_seen": "2026-06-04T02:35:26Z"
+    },
+    {
+      "key": "https://support.claude.com/en/articles/12512180-using-skills-in-claude#h_a4222fa77b",
+      "name": "Using skills in Claude",
+      "type": "skill",
+      "source": "anthropics-skills",
+      "tier": 1,
+      "url": "https://support.claude.com/en/articles/12512180-using-skills-in-claude#h_a4222fa77b",
+      "description": "To use any skill from this repository or upload custom skills, follow the instructions in [Using skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude#h_a4222fa77b).",
+      "domains": [],
+      "signals": {},
+      "first_seen": "2026-06-04T02:35:26Z"
+    }
+  ]
 }
