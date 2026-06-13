@@ -7,6 +7,10 @@ scout.db
 # queue.json IS committed to the repo so the cloud Routine can read it.
 # It contains scraped external content — the Routine treats it as untrusted input.
 
+# progress.json IS committed to the repo — it is the loop's cross-iteration
+# state file (Ralph Wiggum loop pattern). The Routine writes it after each
+# iteration; the next iteration reads it to resume. Commit and push it.
+
 # Python
 __pycache__/
 *.pyc
